@@ -1,0 +1,626 @@
+{
+  "admin": {
+    "navigation": {
+      "cases": "Case Data",
+      "templates": "Report Templates"
+    }
+  },
+  "app": {
+    "general": {
+      "case_overview": "My Cases: Übersicht",
+      "classroom": "Classroom",
+      "new_case_cs": "Start New Case (Cardinal Symptom)",
+      "new_case_direct": "Start New Case (Direct Selection)",
+      "no_cases_found": "No Cases Found"
+    },
+    "navigation": {
+      "admin": "Admin",
+      "allcases": "All Cases",
+      "contact": "Contact",
+      "eval": "Evaluation",
+      "feedback": "Feedback",
+      "help": "Help"
+    }
+  },
+  "chat": {
+    "anamnesis": "Anamnesis Chat",
+    "message": "Message"
+  },
+  "diagnosis": {
+    "diagnosisCoded": "Coded Diagnoses",
+    "noData": "No Diagnoses Available"
+  },
+  "findings": {
+    "imaging": {
+      "children": {
+        "ct": {
+          "form": {
+            "comment": {
+              "name": "Comment"
+            },
+            "diagnosis": {
+              "name": "Diagnosis"
+            },
+            "question": {
+              "name": "Question"
+            },
+            "type": {
+              "choices": {
+                "ct_abdomen_whole": "Entire Abdomen",
+                "ct_skull": "Skull",
+                "ct_skull_stroke": "Stroke Protocol",
+                "ct_skull_whole": "Entire Skull",
+                "ct_thorax_abdomen": "Thorax + Abdomen",
+                "ct_thorax_whole": "Entire Thorax",
+                "ct_trunk": "Trunk"
+              },
+              "name": "CT Examination"
+            }
+          },
+          "name": "CT (Computed Tomography)"
+        },
+        "ctg": {
+          "form": {
+            "comment": {
+              "name": "Comment"
+            },
+            "diagnosis": {
+              "name": "Diagnosis"
+            },
+            "question": {
+              "name": "Question"
+            },
+            "type": {
+              "choices": {
+                "ctg_regular": "CTG"
+              },
+              "name": "CTG Examination"
+            }
+          },
+          "name": "CTG (Cardiotocography)"
+        },
+        "ecg": {
+          "form": {
+            "comment": {
+              "name": "Comment"
+            },
+            "diagnosis": {
+              "name": "Diagnosis"
+            },
+            "question": {
+              "name": "Question"
+            },
+            "type": {
+              "choices": {
+                "ecg_regular": "ECG"
+              },
+              "name": "ECG Examination"
+            }
+          },
+          "name": "ECG (Electrocardiogram)"
+        },
+        "mri": {
+          "form": {
+            "comment": {
+              "name": "Comment"
+            },
+            "diagnosis": {
+              "name": "Diagnosis"
+            },
+            "question": {
+              "name": "Question"
+            },
+            "type": {
+              "choices": {
+                "mri_abdomen": "Abdomen",
+                "mri_abdomen_liver": "Liver",
+                "mri_abdomen_pancreas": "Pancreas",
+                "mri_abdomen_spleen": "Spleen",
+                "mri_abdomen_whole": "Entire Abdomen",
+                "mri_mamma": "Breast",
+                "mri_mamma_whole": "Entire Breast",
+                "mri_pelvic": "Pelcic",
+                "mri_pelvic_whole": "Entire Pelvic Region",
+                "mri_skull": "Skull",
+                "mri_skull_brainstem": "Brainstem",
+                "mri_skull_orbital": "Orbit",
+                "mri_skull_pituitary": "Pituitary Gland",
+                "mri_skull_whole": "Entire Skull",
+                "mri_thorax": "Thorax",
+                "mri_thorax_heart": "Heart",
+                "mri_thorax_whole": "Entire Thorax"
+              },
+              "name": "MRI Examination"
+            }
+          },
+          "name": "MRI (Magnetic Resonance Imaging)"
+        },
+        "us": {
+          "form": {
+            "comment": {
+              "name": "Comment"
+            },
+            "diagnosis": {
+              "name": "Diagnosis"
+            },
+            "question": {
+              "name": "Question"
+            },
+            "type": {
+              "choices": {
+                "us_abdominal": "Abdominal Ultrasound",
+                "us_abdominal_preg": "Abdominal Ultrasound in Pregnancy",
+                "us_mamma": "Breast Ultrasound",
+                "us_rectal": "Rectal Ultrasound",
+                "us_tee": "Transesophageal Echo",
+                "us_tte": "Transthoracic Echo",
+                "us_tv": "Transvaginal Ultrasound"
+              },
+              "name": "Ultrasound Examination"
+            }
+          },
+          "name": "Ultrasound and Echo"
+        },
+        "xray": {
+          "form": {
+            "comment": {
+              "name": "Comment"
+            },
+            "diagnosis": {
+              "name": "Diagnosis"
+            },
+            "question": {
+              "name": "Question"
+            },
+            "type": {
+              "choices": {
+                "xray_abdomen": "Abdomen",
+                "xray_skull": "Skull",
+                "xray_thorax": "Thorax"
+              },
+              "name": "X-ray Examination"
+            }
+          },
+          "name": "X-ray"
+        }
+      },
+      "name": "Imaging & Non-Invasive Diagnostics"
+    },
+    "invasive_diagnostics": {
+      "children": {
+        "cytology_pathology": {
+          "form": {
+            "comment": {
+              "name": "Comment"
+            },
+            "diagnosis": {
+              "name": "Diagnosis"
+            },
+            "question": {
+              "name": "Question"
+            },
+            "type": {
+              "choices": {
+                "breast_biopsy": "Breast biopsy",
+                "cervical_biopsy": "Cervical biopsy",
+                "endometrial_biopsy": "Endometrial biopsy",
+                "hpv_test": "HPV test",
+                "ovarian_biopsy": "Ovarian biopsy",
+                "pap_smear": "PAP smear",
+                "vulvar_biopsy": "Vulvar biopsy"
+              },
+              "name": "Examination"
+            }
+          },
+          "name": "Cytopathology"
+        },
+        "surgery": {
+          "form": {
+            "comment": {
+              "name": "Comment"
+            },
+            "diagnosis": {
+              "name": "Diagnosis"
+            },
+            "question": {
+              "name": "Question"
+            },
+            "type": {
+              "choices": {
+                "colposcopy": "Colposcopy",
+                "hsc": "Hysteroscopy",
+                "lsc": "Laparoscopy"
+              },
+              "name": "Endoscopic Examinations"
+            }
+          },
+          "name": "Endoscopic Examinations"
+        }
+      },
+      "name": "Invasive Diagnostics & Cytopathology"
+    },
+    "laboratory": {
+      "children": {
+        "bloodbank": {
+          "form": {
+            "bloodgroup": {
+              "choices": {
+                "blood_antibodies": "Antibody Screening",
+                "blood_group": "Blood Group"
+              },
+              "name": "Test"
+            }
+          },
+          "name": "Blood Bank"
+        },
+        "labs": {
+          "form": {
+            "blood_gases": {
+              "choices": {
+                "blood_gases_arterial": "BGA - Arterial",
+                "blood_gases_venous": "BGA - Venous"
+              },
+              "name": "Blood Gas Analysis (BGA)"
+            },
+            "cardiac_markers": {
+              "choices": {
+                "bnp": "BNP",
+                "ck": "Creatine Kinase (CK), Total",
+                "ck_mb": "Creatine Kinase MB (CK-MB)",
+                "troponin": "Troponin"
+              },
+              "name": "Cardiac Markers"
+            },
+            "coagulation": {
+              "choices": {
+                "aptt": "aPTT",
+                "atIII": "Antithrombin III",
+                "d_dimer": "D-Dimer",
+                "fibrinogen": "Fibrinogen",
+                "ptz": "Thrombin Time",
+                "quick": "Prothrombin Time (Quick)"
+              },
+              "name": "Coagulation"
+            },
+            "diabetes_diagnostics": {
+              "choices": {
+                "2-h-ogtt": "Oral Glucose Tolerance Test (2 Hours)",
+                "fasting_glucose": "Plasma Glucose, Fasting",
+                "hba1c": "HbA1c"
+              },
+              "name": "Diabetes Diagnostics"
+            },
+            "electrolytes": {
+              "choices": {
+                "calcium_total": "Calcium, Total",
+                "chloride": "Chloride",
+                "magnesium": "Magnesium",
+                "phosphate": "Phosphate",
+                "potassium": "Potassium",
+                "sodium": "Sodium"
+              },
+              "name": "Electrolytes"
+            },
+            "haematology": {
+              "choices": {
+                "blood_count": "Complete Blood Count (CBC)",
+                "diff_blood_count": "Differential Blood Count",
+                "haptoglobin": "Haptoglobin"
+              },
+              "name": "Hematology"
+            },
+            "hormone_diagnostics_women": {
+              "choices": {
+                "amh": "Anti-Müllerian Hormone (AMH)",
+                "dhea": "Dehydroepiandrosterone (DHEA)",
+                "estradiol": "Estradiol",
+                "fsh": "FSH",
+                "lh": "LH",
+                "lh_fsh_ratio": "LH/FSH Ratio",
+                "progesterone": "Progesterone",
+                "prolactin": "Prolactin",
+                "shbg": "Sex Hormone-Binding Globulin (SHBG)",
+                "testosterone": "Testosterone"
+              },
+              "name": "Hormone Diagnostics in Women"
+            },
+            "inflammatory_markers": {
+              "choices": {
+                "crp": "CRP",
+                "pct": "Procalcitonin (PCT)"
+              },
+              "name": "Inflammatory Markers"
+            },
+            "iron_panel": {
+              "choices": {
+                "ferritin": "Ferritin",
+                "iron": "Iron",
+                "transferrin": "Transferrin"
+              },
+              "name": "Iron Metabolism Diagnostics"
+            },
+            "lipid_panel": {
+              "choices": {
+                "hdl": "HDL",
+                "ldl": "LDL",
+                "total_cholesterol": "Total Cholesterol",
+                "triglycerides": "Triglycerides"
+              },
+              "name": "Lipid Profile"
+            },
+            "liver_function_tests": {
+              "choices": {
+                "albumin": "Albumin",
+                "alt": "ALT (GPT)",
+                "ap": "Alkaline Phosphatase",
+                "ast": "AST (GOT)",
+                "bileacids": "Bile Acids",
+                "bilirubin_direct": "Bilirubin, Direct",
+                "bilirubin_total": "Bilirubin, Total",
+                "ggt": "Gamma-GT (GGT)",
+                "ldh": "Lactate Dehydrogenase (LDH)",
+                "total_protein": "Total Protein"
+              },
+              "name": "Liver Function Diagnostics"
+            },
+            "pancreatic_function_tests": {
+              "choices": {
+                "amylase": "Amylase",
+                "lipase": "Lipase"
+              },
+              "name": "Pancreatic Function Diagnostics"
+            },
+            "pregnancy_panel": {
+              "choices": {
+                "afp_mom": "Alpha-1-Fetoprotein (AFP) Multiple of Median (MoM)",
+                "beta_hcg": "Human Chorionic Gonadotropin (beta-hCG)"
+              },
+              "name": "Laboratory Diagnostics in Pregnancy"
+            },
+            "renal_function_tests": {
+              "choices": {
+                "creatinine": "Creatinine",
+                "urea": "Urea",
+                "uric_acid": "Uric Acid"
+              },
+              "name": "Renal Function Diagnostics"
+            },
+            "thyroid_function_tests": {
+              "choices": {
+                "ft3": "Free T3 (fT3)",
+                "ft4": "Free T4 (fT4)",
+                "t3": "T3",
+                "t4": "T4",
+                "tsh": "TSH"
+              },
+              "name": "Thyroid Function Diagnostics"
+            },
+            "tumor_markers": {
+              "choices": {
+                "afp": "Alpha-1-Fetoprotein (AFP)",
+                "ca_125": "CA 125",
+                "ca_15_3": "CA 15-3",
+                "ca_19_9": "CA 19-9",
+                "ca_72_4": "CA 72-4",
+                "cea": "CEA",
+                "ldh": "Lactate Dehydrogenase (LDH)",
+                "scc": "Squamous Cell Carcinoma Antigen (SCC)"
+              },
+              "name": "Tumor Markers"
+            },
+            "urinalysis": {
+              "choices": {
+                "urine_status": "Urine Status"
+              },
+              "name": "Urine Diagnostics"
+            }
+          },
+          "name": "Central Laboratory"
+        },
+        "microbiology": {
+          "form": {
+            "urinalysis": {
+              "choices": {
+                "urine_culture": "Urine Culture"
+              },
+              "name": "Urine Diagnostics"
+            },
+            "vaginal_swab": {
+              "choices": {
+                "vaginal_swab": "Vaginal Swab"
+              },
+              "name": "Vaginal Swab"
+            }
+          },
+          "name": "Microbiology Lab"
+        },
+        "virology": {
+          "name": "Virology Lab"
+        }
+      },
+      "name": "Laboratory"
+    }
+  },
+  "general": {
+    "address": "Address",
+    "case_start": "Case Start",
+    "categories": "Categories",
+    "data_case": "Case Data",
+    "data_general": "Basic Data",
+    "date": "Date",
+    "delete": "Delete",
+    "dependants": "Dependents",
+    "description": "Description",
+    "dob": "Date of Birth",
+    "finding": "Finding",
+    "findings": "Findings",
+    "gender": "Gender",
+    "genders": {
+      "m": {
+        "adj": "Male",
+        "salutation": "Mr."
+      },
+      "w": {
+        "adj": "Female",
+        "salutation": "Ms."
+      }
+    },
+    "insurance": "Insurance",
+    "insurance_number": "Insurance Number",
+    "lastChange": "Last Change",
+    "loading": "Loading",
+    "more": "More",
+    "name": "Name",
+    "noData": "No data available",
+    "order": "Request",
+    "ppn": "PPN",
+    "relations": {
+      "child": "Child",
+      "partner": "Partner"
+    },
+    "required": "Mandatory",
+    "search": "Search",
+    "settings": "Settings",
+    "submit": "Submit",
+    "success": "Success",
+    "timepoint": "Time Point",
+    "title": "Title",
+    "type": "Type",
+    "vignette": "Vignette",
+    "year_abr": "Y"
+  },
+  "labs": {
+    "groups": {
+      "blood_count": "Complete Blood Count (CBC)",
+      "blood_gases_arterial": "BGA (Arterial)",
+      "blood_gases_venous": "BGA (Venous)",
+      "diff_blood_count": "Differential Blood Count",
+      "urine_status": "Urin Status"
+    },
+    "measurements": {
+      "2-h-ogtt": "Oral Glucose Tolerance Test (2 hours)",
+      "afp": "Alpha-1-Fetoprotein (AFP)",
+      "afp_mom": "Alpha-1-Fetoprotein (AFP) Multiple of Median (MoM)",
+      "albumin": "Albumin",
+      "alt": "ALT (GPT)",
+      "amh": "Anti-Müllerian Hormone",
+      "amylase": "Amylase",
+      "ap": "Alkaline Phosphatase",
+      "aptt": "aPTT",
+      "ast": "AST (GOT)",
+      "atIII": "Antithrombin III",
+      "band_neutrophils": "Band neutrophils",
+      "basophils": "Basophils",
+      "beta_hcg": "beta-hCG",
+      "bileacids": "Bile Acids",
+      "bilirubin_direct": "Bilirubin, direct",
+      "bilirubin_total": "Bilirubin, total",
+      "ca_125": "CA-125",
+      "ca_15_3": "CA-15-3",
+      "ca_19_9": "CA-19-9",
+      "ca_72_4": "CA-72-4",
+      "calcium_total": "Calcium, total",
+      "cea": "CEA",
+      "chloride": "Chloride",
+      "ck": "Creatine Kinase (CK), total",
+      "ck_mb": "Creatine Kinase MB (CK-MB)",
+      "creatinine": "Creatinine",
+      "crp": "CRP",
+      "d_dimer": "D-Dimer",
+      "dhea": "Dehydroepiandrosterone (DHEA)",
+      "eosinophils": "Eosinophils",
+      "erythrocytes": "Erythrocytes",
+      "estradiol": "Estradiol",
+      "fasting_glucose": "Fasting Plasma Glucose",
+      "ferritin": "Ferritin",
+      "fibrinogen": "Fibrinogen",
+      "fsh": "FSH",
+      "ft3": "fT3",
+      "ft4": "fT4",
+      "ggt": "Gamma-GT (GGT)",
+      "haemoglobin": "Hemoglobin",
+      "haptoglobin": "Haptoglobin",
+      "hba1c": "HbA1c",
+      "hco3": "Standard Bicarbonate",
+      "hdl": "HDL",
+      "hematocrit": "Hematocrit",
+      "iron": "Iron",
+      "ldh": "Lactate Dehydrogenase (LDH)",
+      "ldl": "LDL",
+      "leukocytes": "Leukocytes",
+      "lh": "LH",
+      "lh_fsh_ratio": "LH/FSH Ratio",
+      "lipase": "Lipase",
+      "lymphocytes": "Lymphocytes",
+      "magnesium": "Magnesium",
+      "mch": "MCH",
+      "mchc": "MCHC",
+      "mcv": "MCV",
+      "monocytes": "Monocytes",
+      "pco2": "Partial Pressure of Carbon Dioxide (pCO2)",
+      "pct": "Procalcitonin (PCT)",
+      "ph": "pH",
+      "phosphate": "Phosphate",
+      "po2": "Partial Pressure of Oxygen (pO2)",
+      "potassium": "Potassium",
+      "progesterone": "Progesterone",
+      "prolactin": "Prolactin",
+      "ptz": "Thrombin Time",
+      "quick": "Prothrombin Time (Quick)",
+      "reticulocytes": "Reticulocytes",
+      "scc": "Squamous Cell Carcinoma Antigen (SCC)",
+      "segmented_neutrophils": "Segmented neutrophils",
+      "shbg": "Sex Hormone-Binding Globulin (SHBG)",
+      "so2": "Oxygen Saturation",
+      "sodium": "Sodium",
+      "t3": "T3",
+      "t4": "T4",
+      "testosterone": "Testosterone",
+      "thrombocytes": "Thrombocytes",
+      "total_cholesterol": "Total Cholesterol",
+      "total_protein": "Total Protein",
+      "transferrin": "Transferrin",
+      "triglycerides": "Triglycerides",
+      "troponin": "Troponin",
+      "tsh": "TSH",
+      "urea": "Urea",
+      "uric_acid": "Uric Acid",
+      "urine_bakteria": "Bacteria in Urine",
+      "urine_protein_creatinine": "Urine Protein/Creatinine Ratio (UPCR)",
+      "urine_rbc": "RBCs in Urine",
+      "urine_status": "Urine Status",
+      "urine_wbc": "WBCs in Urine "
+    }
+  },
+  "pat": {
+    "navigation": {
+      "anamnesis": "Anamnesis",
+      "diagnosis": "Diagnoses",
+      "findings": "Findings",
+      "labs": "Laboratory",
+      "overview": "Overview",
+      "reports": "Medical Reports",
+      "requests": "Requests",
+      "rx": "Prescriptions"
+    }
+  },
+  "requests": {
+    "loading": "Request is loading",
+    "success": "Successfully requested"
+  },
+  "rx": {
+    "accident": "Accident",
+    "accident_occupational": "Occupational accident",
+    "adm": "Administration",
+    "agent": "Agent",
+    "charge": "Subject to charge",
+    "charge_free": "Free of charge",
+    "dosage": "Dosage",
+    "line": "Row",
+    "noctu": "Noctu",
+    "ppn": "PPN",
+    "regime": "Dosage Schedule",
+    "rxdb_open": "Open RxDB",
+    "search_agent": "Search agent"
+  }
+}

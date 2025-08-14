@@ -1,0 +1,73 @@
+{
+  "age": {
+    "max": 40,
+    "min": 20
+  },
+  "labs": {
+    "alt": {
+      "max": 200,
+      "min": 80
+    },
+    "ast": {
+      "max": 200,
+      "min": 80
+    },
+    "beta_hcg": {
+      "max": 20000,
+      "min": 18000
+    },
+    "urine_protein_creatinine": {
+      "max": 300,
+      "min": 200
+    }
+  },
+  "gender": "w",
+  "sc_key": "geb",
+  "vitals": {
+    "hypertension": 1
+  },
+  "history": {
+    "menstruation": "normalfindings_menstrual_cycle_pregnancy",
+    "general_history": {
+      "bmi": {
+        "max": 30,
+        "min": 20
+      },
+      "height": {
+        "max": 170,
+        "min": 150
+      },
+      "surgeries": {
+        "common_surgeries_women": true
+      },
+      "pre_existing_conditions": {
+        "static_value": [
+          "previous_preeclampsia"
+        ]
+      }
+    }
+  },
+  "findings": {
+    "us": {
+      "us_abdominal": {
+        "static_report": {
+          "text": "Intracavitäre Schwangerschaft. Leber orientierend unauffällig. Nieren nicht gestaut. Weitere Organe kaum beurteilbar."
+        }
+      },
+      "us_abdominal_preg": {
+        "static_report": {
+          "text": "Zeitgerechte fetale Entwicklung. \n\n Placenta: normal. \n\n Fruchtwasser: normal. \n\n Doppler: normal."
+        }
+      }
+    }
+  },
+  "vignette": "Sie arbeiten in der zentralen Notaufnahme des UKDs. Frau $name_last ($gender, $age) wird bei Ihnen vorstellig mit Oberbauschschmerzen. Sie gibt an in der 32. Schwangerschaftswoche zu sein. \n\n **Vitalzeichen**: \n\n Puls: $vitals.values.heart_rate/min Atemfrequenz: $vitals.values.respiratory_rate/min \n\n RR $vitals.values.blood_pressure_systolic/$vitals.values.blood_pressure_diastolic mmHg \n\n Temperatur: $vitals.values.temperature°C",
+  "internal_name": "preeclampsia_classroom_edition",
+  "vignette_patient": "Sie sind Frau $name_last, $age Jahre alt und in der 32. SSW. Sie haben seit 2 Tagen Oberbauchschmerzen und sind heute in die Notaufnahme gekommen. Sie haben keine Vorerkrankungen und nehmen keine Dauermedikation ein. Sie sehen seit kurzem intermittiernd Lichtblitze und haben seit 2 Tagen Kopfschmerzen.",
+  "cardinal_symptoms": [
+    "hypertension_in_pregnancy",
+    "preterm_labor",
+    "proteinuria",
+    "abdominal_pain_in_pregnancy"
+  ]
+}

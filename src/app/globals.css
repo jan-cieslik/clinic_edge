@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@theme {
+  --color-keyA-50: #f2fbfa;
+  --color-keyA-100: #d2f5f3;
+  --color-keyA-200: #a5eae7;
+  --color-keyA-300: #70d8d7;
+  --color-keyA-400: #42bdbf;
+  --color-keyA-500: #2ba8ac;
+  --color-keyA-600: #1e7e83;
+  --color-keyA-700: #1c6469;
+  --color-keyA-800: #1b4f54;
+  --color-keyA-900: #1a4447;
+  --color-keyA-950: #09262a;  
+}
+.zebra tr:nth-child(even) {
+    background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+  }
+.zebra tr:nth-child(odd) {
+     background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  }

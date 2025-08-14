@@ -1,0 +1,80 @@
+{
+    "age": {
+        "max": 40,
+        "min": 20
+    },
+    "labs": {
+        "alt": {
+            "max": 200,
+            "min": 120
+        },
+        "ast": {
+            "max": 200,
+            "min": 120
+        },
+        "beta_hcg": {
+            "max": 20000,
+            "min": 18000
+        },
+        "thrombocytes": {
+            "max": 90,
+            "min": 50
+        },
+        "haptoglobin": {
+            "max": 15,
+            "min": 5
+        },
+        "ldh": {
+            "max": 350,
+            "min": 300
+        }
+    },
+    "gender": "w",
+    "sc_key": "geb",
+    "vitals": {
+        "hypertension": 1
+    },
+    "history": {
+        "menstruation": "normalfindings_menstrual_cycle_pregnancy",
+        "general_history": {
+            "bmi": {
+                "max": 30,
+                "min": 20
+            },
+            "height": {
+                "max": 170,
+                "min": 150
+            },
+            "surgeries": {
+                "common_surgeries_women": true
+            },
+            "pre_existing_conditions": {
+                "static_value": [
+                    "previous_preeclampsia"
+                ]
+            }
+        }
+    },
+    "findings": {
+        "us": {
+            "us_abdominal": {
+                "static_report": {
+                    "text": "Intracavitäre Schwangerschaft. Leber orientierend unauffällig. Nieren nicht gestaut. Weitere Organe kaum beurteilbar."
+                }
+            },
+            "us_abdominal_preg": {
+                "static_report": {
+                    "text": "Untersuchungsbedingungen: Darstellung eingeschränkt wegen fetaler Aktivität  \n\n Schwangerschaft: Einlingsschwangerschaft  \n\n Allgemeine Beurteilung: \n\n Kindsbewegungen: darstellbar. \n\n Fetale Lage: Schädellage  \n\n Plazenta: Vorderwand  \n\n Nabelschnur: unauffällig  \n\n Fruchtwasser: normal  \n\n\n\n **Fetale Biometrie**: \n\n BPD 94,1 mm 51% \n\n FOD 123,6 mm 90% \n\n KU 343,5 mm 41% \n\n AU 346,7 mm 40% \n\n Femur 79,6 mm 80%  \n\n KU / AU 0,99 53% \n\n Gewicht 3.701 g 59%  \n\n Gewicht nach: Hadlock (BPD-KU-AU-Femur)  \n\n  \n\n **Zusammenfassende Beurteilung**: Unauffällige, zeitgerecht entwickelte Einlingsschwangerschaft "
+                }
+            }
+        }
+    },
+    "vignette": "Sie arbeiten in der zentralen Notaufnahme des UKDs. Frau $name_last ($gender, $age) wird bei Ihnen vorstellig mit Oberbauschschmerzen. Sie gibt an in der 39. Schwangerschaftswoche zu sein. \n\n **Vitalzeichen**: \n\n Puls: $vitals.values.heart_rate/min Atemfrequenz: $vitals.values.respiratory_rate/min \n\n RR $vitals.values.blood_pressure_systolic/$vitals.values.blood_pressure_diastolic mmHg \n\n Temperatur: $vitals.values.temperature°C",
+    "internal_name": "preeclampsia_classroom_edition",
+    "vignette_patient": "Sie sind Frau $name_last, $age Jahre alt und in der 39. SSW. Sie haben seit heute extreme Oberbauchschmerzen und sind heute in die Notaufnahme gekommen. Sie haben keine Vorerkrankungen und nehmen keine Dauermedikation ein. Sie haben in den letzten Tagen viel Gewicht zugenommen.",
+    "cardinal_symptoms": [
+        "hypertension_in_pregnancy",
+        "preterm_labor",
+        "abdominal_pain_in_pregnancy"
+    ]
+}
