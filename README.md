@@ -4,6 +4,8 @@ Clinic Edge is a patient case simulator designed for medical education that gene
 
 For full docs please see [https://clinic-edge.org/]
 
+[![DOI](https://zenodo.org/badge/1038128345.svg)](https://doi.org/10.5281/zenodo.16877571)
+
 ## Getting Started
 
 First, run the development server:
